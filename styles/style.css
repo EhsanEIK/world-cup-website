@@ -10,6 +10,10 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
+}
+
+header,
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,6 +33,10 @@ p {
     display: flex;
 }
 
+.white-color-text {
+    color: white;
+}
+
 /* ---------------------
     top header style
 -----------------------*/
@@ -37,9 +45,8 @@ header {
 }
 
 .header-design {
-    padding: 30px 0 20px;
+    padding: 30px 0 80px;
     background-color: #161616;
-    color: white;
     border-radius: 20px;
 }
 
@@ -49,7 +56,7 @@ header {
 }
 
 .half-width img {
-    width: 100%
+    width: 90%;
 }
 
 .live-button {
@@ -74,7 +81,7 @@ main {
 
 .box {
     width: 250px;
-    height: 200px;
+    height: 100%;
 }
 
 /* button style */
@@ -83,9 +90,9 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    row-gap: 10px;
-    padding: 10px;
-    border-radius: 20px;
+    row-gap: 20px;
+    padding: 40px;
+    border-radius: 10px;
     background-color: #161616;
 }
 
@@ -129,4 +136,42 @@ main {
 
 .blog-info>i {
     margin-right: 15%;
+}
+
+
+/* ---------------------
+    footer style
+-----------------------*/
+footer {
+    margin-top: 10%;
+}
+
+.footer-container {
+    background-color: #161616;
+    text-align: center;
+    padding: 50px;
+}
+
+.footer-title h2 {
+    font-size: 40px;
+}
+
+.footer-details {
+    margin-top: 50px;
+}
+
+.footer-details ul {
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.footer-details ul li {
+    list-style: none;
+}
+
+.footer-details ul li a {
+    text-decoration: none;
+    color: grey;
 }
