@@ -161,6 +161,14 @@ section {
     padding: 20px;
 }
 
+.transfer-button {
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
 .blog-info>i {
     margin-right: 15%;
 }
