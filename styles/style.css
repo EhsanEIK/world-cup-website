@@ -20,7 +20,7 @@ main {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 5vw;
 }
 
 p {
@@ -34,14 +34,14 @@ p {
 }
 
 .button-style {
+    cursor: pointer;
     text-decoration: none;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     background-color: rgb(9, 60, 230);
     color: white;
     padding: 10px 20px;
-    border-radius: 5px;
-    border: 0;
+    border-radius: 10px;
 }
 
 .button-style i {
@@ -87,7 +87,7 @@ section {
     height: 100%;
 }
 
-/* button style */
+/* left side button group style */
 .button-group {
     display: flex;
     flex-direction: column;
@@ -103,6 +103,7 @@ section {
     width: 200px;
     background-color: white;
     color: black;
+    border: 1px solid rgba(202, 199, 199, 0.5);
 }
 
 #active {
@@ -162,6 +163,7 @@ footer {
 
 .footer-title h2 {
     font-size: 40px;
+    margin-left: 30px;
 }
 
 .footer-details {
@@ -172,6 +174,7 @@ footer {
     display: flex;
     column-gap: 30px;
     justify-content: center;
+    align-items: center;
     margin-bottom: 2%;
 }
 
@@ -182,4 +185,53 @@ footer {
 .footer-details ul li a {
     text-decoration: none;
     color: grey;
+}
+
+
+/* ---------------------
+    media queries
+-----------------------*/
+/* mobile device */
+@media only screen and (max-width:767px) {
+    body {
+        margin: 0 8px;
+    }
+
+    .container {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 50px;
+    }
+
+    /* top header style */
+    header {
+        text-align: center;
+    }
+
+    header p {
+        height: 100px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    /* left side button group style */
+    .button-group {
+        background-color: white;
+    }
+
+    /* blogs style */
+    #blogs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #blogs h2 {
+        font-size: 15px;
+    }
+
+    /* footer style */
+    #menubar-list {
+        flex-direction: column;
+        row-gap: 20px;
+    }
 }
