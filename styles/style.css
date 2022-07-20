@@ -241,6 +241,10 @@ footer {
     text-decoration: underline;
 }
 
+.footer-details p {
+    font-size: 14px;
+}
+
 
 /* ---------------------
     media queries
