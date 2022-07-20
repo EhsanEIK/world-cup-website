@@ -97,9 +97,9 @@ header {
     animation: none;
 }
 
-/* ---------------------
-    main section style
------------------------*/
+/* -------------------------
+    middle section style
+---------------------------*/
 section {
     margin-top: 10%;
 }
@@ -170,6 +170,20 @@ section {
 
 #upcoming-matches-details {
     text-align: center;
+}
+
+
+/* all group style */
+#all-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#all-group img {
+    width: 100%;
+    height: 100px;
 }
 
 /* ----------------------------------
@@ -288,7 +302,7 @@ footer {
         text-overflow: ellipsis;
     }
 
-    /* main section style */
+    /* middle section style */
     section {
         margin-top: 5%;
     }
