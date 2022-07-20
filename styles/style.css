@@ -59,7 +59,7 @@ header {
     margin-top: 2%;
 }
 
-.header-design {
+.top-header {
     padding: 30px 0 80px;
     background-color: #161616;
     border-radius: 20px;
@@ -74,6 +74,28 @@ header {
     width: 90%;
 }
 
+/* button animation and hover */
+@keyframes button {
+    0% {
+        transform: scale(1);
+        color: red;
+    }
+
+    100% {
+        transform: scale(1.2);
+        color: white;
+    }
+}
+
+.top-header a {
+    display: inline-block;
+    animation: button 0.8s ease-in-out 0s infinite alternate;
+    animation-play-state: running;
+}
+
+.top-header a:hover {
+    animation: none;
+}
 
 /* ---------------------
     main section style
@@ -280,6 +302,12 @@ footer {
     #blogs {
         grid-template-columns: repeat(2, 1fr);
         margin-left: 0;
+    }
+
+    /* view all button section style */
+    .view-all-button-section {
+        display: inline-block;
+        text-align: center;
     }
 
     /* footer style */
