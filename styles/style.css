@@ -162,6 +162,16 @@ section {
 }
 
 
+/* upcoming matches style */
+#upcoming-matches-banner {
+    display: flex;
+    column-gap: 20px;
+}
+
+#upcoming-matches-details {
+    text-align: center;
+}
+
 /* ----------------------------------
     view all button section style
 ------------------------------------*/
