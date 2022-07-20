@@ -33,6 +33,21 @@ p {
     display: flex;
 }
 
+.button-style {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(9, 60, 230);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.button-style i {
+    margin-left: 10px;
+}
+
 .white-color-text {
     color: white;
 }
@@ -59,24 +74,12 @@ header {
     width: 90%;
 }
 
-.live-button {
-    text-decoration: none;
-    background-color: rgb(9, 60, 230);
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-}
-
-.live-button i {
-    margin-left: 10px;
-}
-
 
 /* ---------------------
     main section style
 -----------------------*/
-main {
-    margin-top: 8%;
+section {
+    margin-top: 10%;
 }
 
 .box {
@@ -96,13 +99,10 @@ main {
     background-color: #161616;
 }
 
-.buttons button {
+.button-group button {
     width: 200px;
-    font-family: 'Poppins', sans-serif;
-    color: black;
     background-color: white;
-    padding: 10px 30px;
-    border-radius: 10px;
+    color: black;
 }
 
 #active {
@@ -136,6 +136,14 @@ main {
 
 .blog-info>i {
     margin-right: 15%;
+}
+
+
+/* ----------------------------------
+    view all button section style
+------------------------------------*/
+.view-all-button-section {
+    display: none;
 }
 
 
